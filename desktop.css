@@ -1,0 +1,53 @@
+:root{
+    --font-sm: 1.2rem;
+    --font-md: 1.6rem;
+    --font-bg: 2.4rem;
+    --black: #201e1c;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --principal-blue: #1a9af7;
+    --grey: #bababa;
+    --yellow: #ffdd00;
+    --red: #ff3d3d;
+
+    /*Fonts*/
+    --font-DM: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+.link1{
+    margin: 0 0 0 50px;
+}
+.links_right .nav_favoritos,.nav_carrito{
+    margin: 0 40px 0 40px;
+}
+.menu_container{
+    height: 960px;
+}
+.menu_container--img{
+    width: 260px;
+    margin-bottom: 20px;
+}
+.menu_container--menu{
+    min-width: 323px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.menu_container--menu h3{
+    font-size: var(--font-bg);
+    font-family: var(--font-DM);
+    font-weight: 800;
+    color: var(--red);
+    margin-bottom: 20px;
+}
+.menu_container--menu .menu_description{
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: var(--black);
+    margin: 20px 50px 20px 50px;
+}
+.menu_container--menu .menu_price{
+    color: var(--principal-blue);
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}

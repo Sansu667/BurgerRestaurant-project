@@ -1,0 +1,164 @@
+:root{
+    --font-sm: 1.2rem;
+    --font-md: 1.6rem;
+    --font-bg: 2.4rem;
+    --black: #201e1c;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --principal-blue: #1a9af7;
+    --grey: #bababa;
+    --yellow: #ffdd00;
+    --red: #ff3d3d;
+
+    /*Fonts*/
+    --font-DM: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--off-white);
+}
+                       /*Header*/
+.nav_burgerrestaurant{
+    display: flex;
+    margin: 20px 20px 50px 20px;
+    justify-content: space-between;
+}
+.link1{
+    margin: 0 0 0 10px;
+}
+.links_right{
+    padding-top: 15px;
+}
+.links_right .nav_favoritos,.nav_carrito{
+    margin: 0 10px 0 10px;
+}
+.nav_burgerrestaurant .img_logo{
+    width: 70px;
+}
+.nav_burgerrestaurant .img_favoritos,.img_carrito{
+    width: 40px;
+}
+.nav_burgerrestaurant li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+         /*aside*/
+.box_recomendados{
+    margin: 10px 0 50px 0;
+}
+.box_recomendados h2{
+    text-align: center;
+    color: var(--black);
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: var(--font-DM);
+    margin-bottom: 50px;
+}
+.menu_recomendados .menu_recomendados--img{
+    min-width: 150px;
+    max-width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.slider_recomendados{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 30px;
+}
+.menu_recomendados{
+    height: auto;
+    text-align: center;
+    background-color: var(--just-white);
+    border-radius: 10px;
+}
+.menu_recomendados h4{
+    font-size: var(--font-md);
+    margin-bottom: 10px;
+}
+.menu_recomendados p{
+    font-size: var(--font-sm);
+    margin-bottom: 10px;
+}
+.menu-recomend1,.menu-recomend2,.menu-recomend3,.menu-recomend4{
+    margin-right: 20px;
+}
+             /*Main*/
+.menu_container{
+    height: 700px;
+}
+.menu_container h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 50px;
+}
+.menu_box{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+.menu_container--menu{
+    width: 80%;
+    min-width: 120px;
+    background-color: var(--just-white);
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu_container--menu h3,
+.menu_container--menu p{
+ text-align: center;
+}
+.menu_container--menu h3{
+    font-size: var(--font-sm);
+    font-family: var(--font-DM);
+    font-weight: 800;
+    color: var(--red);
+    margin-bottom: 10px;
+}
+.menu_container--img{
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.menu_container--menu .menu_description{
+    font-size: var(--font-sm);
+    font-family: var(--font-inter);
+    line-height: 1.6rem;
+    color: var(--black);
+    margin: 10px 0 10px 0;
+}
+.menu_container--menu .menu_price{
+    color: var(--principal-blue);
+    font-size: var(--font-sm);
+    font-weight: 500;
+}
+
+footer{
+    background-color: var(--grey);
+    height: auto;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: var(--font-sm);
+    color: var(--black);
+    font-weight: 800;
+}
